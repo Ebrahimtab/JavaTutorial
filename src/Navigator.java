@@ -1,4 +1,4 @@
-import ir.porteghali.javatutorial.E016_Variables;
+import ir.porteghali.javatutorial.*;
 
 /**
  * this class navigate us to the target classes
@@ -11,7 +11,7 @@ public class Navigator {
      */
     public static void main(String args[]) {
         System.out.println("Navigator");
-        E016_Variables variables = new E016_Variables();
+        E020_TryCatchBlock variables = new E020_TryCatchBlock();
         variables.Start();
     }
 }
