@@ -18,8 +18,8 @@ public class E052_Interface implements E052_DownloadListener {
     public void downloadCompleted(int fileLength, String filePath) {
 
         System.out.println("download completed");
-        System.out.println("file length : " + fileLength + " MB");
-        System.out.println("file path : " + filePath);
+        System.out.println("file length: " + fileLength + " MB");
+        System.out.println("file path: " + filePath);
     }
 
     @Override
