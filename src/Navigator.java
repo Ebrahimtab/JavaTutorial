@@ -12,6 +12,6 @@ public class Navigator {
     public static void main(String args[]) {
         System.out.println("Navigator");
 
-        new E051_Abstraction();
+        new E052_Interface();
     }
 }
