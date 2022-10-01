@@ -11,7 +11,9 @@ public class E069_ArraySort {
         Integer [] myArray2 = {100, 5, 27, 51, 1, 16};
 
         printArray(myArray);
+
         System.out.println("------");
+
         Arrays.sort(myArray);
         printArray(myArray);
 
