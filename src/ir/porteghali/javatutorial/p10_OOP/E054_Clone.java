@@ -4,11 +4,10 @@ public class E054_Clone {
 
     public E054_Clone() {
 
-        E054_Student student1 = new E054_Student();
-        student1.name = "Ebrahim";
+        E054_Student student1 = new E054_Student("Ebrahim", 20);
         System.out.println("student1: " + student1.name);
 
-        E054_Student student2 = null;
+        E054_Student student2;
         try {
             student2 = (E054_Student) student1.clone();
         } catch (CloneNotSupportedException e) {
